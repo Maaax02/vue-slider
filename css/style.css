@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+#app{
+    margin: 120px auto;
+    width: 2000px;
+    height: 800px;
+}
+
+.cars{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.images{
+    width: 100%;
+}
+
+.macchine{
+    position: relative;
+}
+
+.left{
+    font-size: 70px;
+    color: #000;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+}
+
+.right{
+    font-size: 70px;
+    color: #000;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+
+.container-box{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 800px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.white{
+    background-color: #000;
+}
